@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "gatsby develop",
-    "develop": "gatsby develop",
+    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
